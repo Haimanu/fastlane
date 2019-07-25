@@ -1,3 +1,9 @@
-lane :beta do
-  build_app(scheme: "MyAppTests")
+fastlane_version "2.128.0"
+
+default_platform :ios
+
+platform :ios do
+   lane :example do
+      puts("this is my first 🚀 lane file")
+   end
 end
